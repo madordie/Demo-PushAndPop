@@ -15,6 +15,7 @@ class BViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
+        //   侧滑返回
         if navigationController?.viewControllers.count ?? 0 > 1 {
             navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         } else {
@@ -25,6 +26,7 @@ class BViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+
         guard let navigationController = navigationController  else {
             return
         }
@@ -34,6 +36,7 @@ class BViewController: UIViewController {
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+
         guard let navigationController = navigationController  else {
             return
         }
@@ -43,6 +46,5 @@ class BViewController: UIViewController {
         if last.navigationBarHidden != navigationBarHidden {
             navigationController.setNavigationBarHidden(last.navigationBarHidden, animated: animated)
         }
-
     }
 }

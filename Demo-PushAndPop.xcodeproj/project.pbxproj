@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32BB3D4D1EC5BE2A0064FBF9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB3D4C1EC5BE2A0064FBF9 /* NavigationController.swift */; };
 		32D195571EBC1F8700FE669C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D195561EBC1F8700FE669C /* AppDelegate.swift */; };
 		32D195591EBC1F8700FE669C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D195581EBC1F8700FE669C /* ViewController.swift */; };
 		32D1955E1EBC1F8700FE669C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D1955D1EBC1F8700FE669C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32BB3D4C1EC5BE2A0064FBF9 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		32D195531EBC1F8700FE669C /* Demo-PushAndPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-PushAndPop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D195561EBC1F8700FE669C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D195581EBC1F8700FE669C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				32D195561EBC1F8700FE669C /* AppDelegate.swift */,
+				32BB3D4C1EC5BE2A0064FBF9 /* NavigationController.swift */,
 				32D1956C1EBC26A100FE669C /* BViewController.swift */,
 				32D195581EBC1F8700FE669C /* ViewController.swift */,
 				32D195681EBC1FB200FE669C /* VIewController2.swift */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D195591EBC1F8700FE669C /* ViewController.swift in Sources */,
+				32BB3D4D1EC5BE2A0064FBF9 /* NavigationController.swift in Sources */,
 				32D195691EBC1FB200FE669C /* VIewController2.swift in Sources */,
 				32D1956B1EBC22ED00FE669C /* ViewController3.swift in Sources */,
 				32D1956D1EBC26A100FE669C /* BViewController.swift in Sources */,
@@ -302,6 +306,7 @@
 				32D195671EBC1F8700FE669C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
