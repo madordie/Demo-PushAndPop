@@ -26,15 +26,11 @@ class ViewController: BViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.green
-    }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let touch = touches.first
-        if (touch?.location(in: view).y)! > view.center.y {
-            navigationController?.pushViewController(ViewController3(nibName: nil, bundle: nil), animated: true)
-        } else {
-            navigationController?.pushViewController(VIewController2(nibName: nil, bundle: nil), animated: true)
-        }
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(push)))
+    }
+    func push() {
+        navigationController?.pushViewController(VIewController2(nibName: nil, bundle: nil), animated: true)
     }
 }
 
