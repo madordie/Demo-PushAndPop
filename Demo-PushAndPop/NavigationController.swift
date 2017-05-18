@@ -11,6 +11,6 @@ import UIKit
 class NavigationController: UINavigationController {
 
     override var childViewControllerForStatusBarStyle: UIViewController? {
-        return visibleViewController
+        return topViewController
     }
 }
