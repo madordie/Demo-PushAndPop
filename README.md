@@ -18,7 +18,7 @@ override var preferredStatusBarStyle: UIStatusBarStyle {
 ```swift
 class NavigationController: UINavigationController {
     override var childViewControllerForStatusBarStyle: UIViewController? {
-        return visibleViewController
+        return topViewController
     }
 }
 ```
@@ -58,7 +58,7 @@ class BViewController: UIViewController {
 }
 ```
 
-# 感谢
+## 感谢
 
 - @木头 `viewWillAppear`更换为`viewDidAppear`然后调试，在Demo中测试也可以曲线救国。
 - @Harry 提供的终极大法～
