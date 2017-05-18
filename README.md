@@ -22,7 +22,7 @@ class NavigationController: UINavigationController {
     }
 }
 ```
-只需要将`childViewControllerForStatusBarStyle`设置为`UINavigationController.visibleViewController`即可。
+只需要将`childViewControllerForStatusBarStyle`设置为`UINavigationController.topViewController`即可。
 
 ## 另外
 
